@@ -115,7 +115,7 @@ A YOLO-based object detection system is implemented to identify objects in the r
 ## Full Process
 Here this is our whole process for our outnavigation and object detection. Because of the time limitation, we could not test the object detection and 3D map creation in real robot
 <p align="center" style="margin-top: -20px;">
-  <img src="media/Whole_process.png" alt="Alt text for image" style="transform: rotate(-90deg);">
+  <img src="Outdoor-Nav-and-Object-Detection-main/media/Whole_process.png" alt="Alt text for image" style="transform: rotate(-90deg);">
 </p>
 
 # EXTRA: For fun we created the 3D map of the simulation env.
