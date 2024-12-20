@@ -11,8 +11,8 @@
    
 ## 📚 Table of Contents
 
-1. [📖 Introduction](#-introduction)
-2. [🔧 Installation](#-installation)
+1. [📖 Introduction](#introduction)
+2. [🔧 Installation](#installation)
 3. [🚀 Usage](#usage)
 4. [🛠️ Implementation](#features)
 5. [🔧 Future Work](#future-work)
@@ -22,9 +22,9 @@
 
 This project focuses on outdoor navigation and object detection with obstacle avoidance on Scout-Mini differential drive robots in unknown environments. GPS predefined goals are provided for the robot to navigate while avoiding obstacles and detecting objects in the outdoor environment.
 <!-- Images with custom dimensions -->
-<img src="/media/Screenshot%20from%202024-12-10%2022-51-17.png" alt="Alt text for image" width="300" height="200"><img src="/media/sim1.jpeg" alt="Alt text for image" width="300" height="200">
+<img src="/Outdoor-Nav-and-Object-Detection-main/media/Screenshot%20from%202024-12-10%2022-51-17.png" alt="Alt text for image" width="300" height="200"><img src="/Outdoor-Nav-and-Object-Detection-main/media/sim1.jpeg" alt="Alt text for image" width="300" height="200">
 
-<img src="/media/real.jpeg" alt="Alt text for image" width="600" height="600">
+<img src="/Outdoor-Nav-and-Object-Detection-main/media/real.jpeg" alt="Alt text for image" width="600" height="600">
 ## Installation
 
 To run this package, the following dependencies should be installed:
@@ -83,13 +83,13 @@ The main tasks of this project are outlined below:
 
 The robot is given predefined GPS waypoints to navigate towards. The GPS data is converted into local coordinates for more accurate navigation, enabling the robot to move to specific goals in the environment.
 
-![Alt text for image](media/GNSS_NAV.png)
+![Alt text for image](Outdoor-Nav-and-Object-Detection-main/media/GNSS_NAV.png)
 
 *SOME EXPERIMENT RESULTS::*
 
-![Alt text for image](media/gnnsss_navv.png)
+![Alt text for image](Outdoor-Nav-and-Object-Detection-main/media/gnnsss_navv.png)
 
-![Alt text for image](media/Gnss_waypt.png)
+![Alt text for image](Outdoor-Nav-and-Object-Detection-main/media/Gnss_waypt.png)
 
 
 
@@ -106,10 +106,10 @@ The depth camera provides depth data that is used to detect obstacles in the rob
 
 A YOLO-based object detection system is implemented to identify objects in the robot's surroundings. This is useful for tasks such as identifying specific objects that the robot might need to interact with or avoid.
 <p align="center">
-  <img src="media/Object_Dettection.png" alt="Alt text for image" style="transform: rotate(-90deg);">
+  <img src="Outdoor-Nav-and-Object-Detection-main/media/Object_Dettection.png" alt="Alt text for image" style="transform: rotate(-90deg);">
 </p>
 
-![Alt text for image](media/Object_det_rviz.jpeg)
+![Alt text for image](Outdoor-Nav-and-Object-Detection-main/media/Object_det_rviz.jpeg)
 
 
 ## Full Process
@@ -120,7 +120,7 @@ Here this is our whole process for our outnavigation and object detection. Becau
 
 # EXTRA: For fun we created the 3D map of the simulation env.
 
-![Alt text for image](media/forfun.png)
+![Alt text for image](Outdoor-Nav-and-Object-Detection-main/media/forfun.png)
 
 
 ## Future Work
