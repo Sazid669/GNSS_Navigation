@@ -1,0 +1,8 @@
+amcl:
+  laser_model_type: "likelihood_field"  
+  min_particles: 100                    
+  max_particles: 1000                  
+  kld_err: 0.05                        
+  kld_z: 0.99                         
+  update_min_d: 0.2                     
+  update_min_a: 0.2                   

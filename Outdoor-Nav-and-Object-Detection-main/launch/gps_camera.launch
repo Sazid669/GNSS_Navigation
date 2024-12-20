@@ -1,0 +1,26 @@
+<launch>
+    <node pkg="robot_localization" type="navsat_transform_node" name="navsat_transform" output="screen">
+        <param name="frequency" value="10" />
+        <param name="imu_topic" value="/imu/data" />
+        <param name="gps_topic" value="/gps/fix" />
+        <param name="odometry_topic" value="/odometry/gps" />
+        <remap from="/gps/fix" to="/gnss" />
+        
+        <param name="world_frame" value="odom" />
+        <param name="odom_frame" value="odom" />
+        <param name="base_link_frame" value="base_link" />
+        <param name="yaw_offset" value="0" />
+        <param name="zero_altitude" value="true" />
+
+        <!-- Reference latitude, longitude, and altitude -->
+        <param name="datum_lat" value="47.4741334420408" />
+        <param name="datum_lon" value="19.05723378370468" />
+        <param name="datum_alt" value="106.2" />
+        <param name="debug" value="true" />
+
+    </node>
+
+    <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="bl_to_gps"
+          args="0 0 0 0 0 0 base_link gps" />     -->
+
+</launch>
