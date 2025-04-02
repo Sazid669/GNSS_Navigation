@@ -25,6 +25,7 @@ This project focuses on outdoor navigation and object detection with obstacle av
 <img src="/Outdoor-Nav-and-Object-Detection-main/media/Screenshot%20from%202024-12-10%2022-51-17.png" alt="Alt text for image" width="300" height="200"><img src="/Outdoor-Nav-and-Object-Detection-main/media/sim1.jpeg" alt="Alt text for image" width="300" height="200">
 
 <img src="/Outdoor-Nav-and-Object-Detection-main/media/real.jpeg" alt="Alt text for image" width="600" height="600">
+
 ## Installation
 
 To run this package, the following dependencies should be installed:
