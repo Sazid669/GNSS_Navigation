@@ -135,4 +135,6 @@ Here this is our whole process for our outnavigation and object detection. Becau
 
 [Object Detection](https://www.youtube.com/watch?v=SrmWNpqsRHo&t=1s&ab_channel=MirMohibullahsazid)
 
+[MultiPoint Navigation with GNSS](https://youtu.be/0Ty81WIx-vM) 
+
 # Thanks!!
